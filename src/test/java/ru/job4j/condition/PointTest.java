@@ -43,7 +43,7 @@ public class PointTest {
     }
 
     @Test
-    public void distance3d() {
+    public void when030to838then11dot31() {
         double expected = 11.31;
         Point a = new Point(0, 3, 0);
         Point b = new Point(8, 3, 8);
