@@ -9,9 +9,6 @@ public class Programmer extends Engineer {
         this.programmingLanguage = programmingLanguage;
     }
 
-    public Programmer() {
-    }
-
     public String getProgrammingLanguage() {
         return programmingLanguage;
     }

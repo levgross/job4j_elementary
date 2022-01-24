@@ -8,9 +8,6 @@ public class Dentist extends Doctor {
         this.teeth = teeth;
     }
 
-    public Dentist() {
-    }
-
     public String getTeeth() {
         return teeth;
     }

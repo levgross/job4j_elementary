@@ -8,9 +8,6 @@ public class Engineer extends Profession {
         this.computer = computer;
     }
 
-    public Engineer() {
-    }
-
     public String getComputer() {
         return computer;
     }

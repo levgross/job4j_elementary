@@ -9,9 +9,6 @@ public class Builder extends Engineer {
         this.building = building;
     }
 
-    public Builder() {
-    }
-
     public String getBuilding() {
         return building;
     }

@@ -8,9 +8,6 @@ public class Surgeon extends Doctor {
         this.cut = cut;
     }
 
-    public Surgeon() {
-    }
-
     public String getCut() {
         return cut;
     }
