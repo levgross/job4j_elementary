@@ -16,8 +16,7 @@ public class Library {
             System.out.println(book.getName() + " - " + book.getPages() + " pages.");
         }
         System.out.println("Replace [0] to [3].");
-        Book temp;
-        temp = books[0];
+        Book temp = books[0];
         books[0] = books[3];
         books[3] = temp;
         for (int i = 0; i < books.length; i++) {
@@ -28,7 +27,7 @@ public class Library {
         for (int i = 0; i < books.length; i++) {
             Book book = books[i];
             String bookName = books[i].getName();
-            if (bookName.equals("Clean code")) {
+            if ("Clean code".equals(bookName)) {
                 System.out.println(book.getName() + " - " + book.getPages() + " pages.");
             }
         }
