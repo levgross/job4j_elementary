@@ -26,8 +26,7 @@ public class Library {
         System.out.println("Shown only books.name == Clean code");
         for (int i = 0; i < books.length; i++) {
             Book book = books[i];
-            String bookName = books[i].getName();
-            if ("Clean code".equals(bookName)) {
+            if ("Clean code".equals(books[i].getName())) {
                 System.out.println(book.getName() + " - " + book.getPages() + " pages.");
             }
         }
